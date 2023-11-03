@@ -67,7 +67,7 @@ def download_kaggle_dataset(dataset_url, data_dir, force=False, dry_run=False):
                 target_dir,
                 force=force,
                 quiet=False,
-                unzip=True)
+                unzip=False)
 
     else:
         print("This is a dry run, skipping..")
